@@ -1,89 +1,88 @@
 # 📣 公告
-* [ShokaX 正在寻找社区维护者](https://github.com/theme-shoka-x/hexo-theme-shokaX/discussions/137)
+* [ShokaTheta 正在尋找社群維護者](https://github.com/ZoneTwelve/hexo-theme-shokaTheta/discussions/1)
 
 # hexo-theme-shokaX
-![LICENSE](	https://img.shields.io/github/license/theme-shoka-x/hexo-theme-shokaX)
-![stars](https://img.shields.io/github/stars/theme-shoka-x/hexo-theme-shokaX)
-![version](https://shields.io/npm/v/hexo-theme-shokax)
-![build](https://img.shields.io/github/actions/workflow/status/theme-shoka-x/hexo-theme-shokaX/build-theme.yml)
+![LICENSE](https://img.shields.io/github/license/ZoneTwelve/hexo-theme-shokaTheta)
+![stars](https://img.shields.io/github/stars/ZoneTwelve/hexo-theme-shokaTheta)
+<!-- ![version](https://shields.io/npm/v/hexo-theme-shokax) -->
+![build](https://img.shields.io/github/actions/workflow/status/ZoneTwelve/hexo-theme-shokaTheta/build-theme.yml)
 
-语言(language): 简体中文 | [English](./README_en.MD) \
-此项目是shoka的一个二次开发版(算精神续作),致力于提高性能和优化魔改体验 \
-诞生原因是目前shoka已经两年没有更新了,积压了大量BUG和功能请求。
+語言(language): 繁體中文 | [English](./README_en.MD) \
+此項目是 ShokaTheta，一個基於 ShokaX 的專案進行調整的專案，致力於保障使用者隱私以及保留高性能的最佳化體驗\
+誕生的原因就是 Shoka 包含一些不太符合本人社群精神的系統更動。
 
-shokaX的社区资源导航和插件仓库为[awesome-shokaX](https://github.com/theme-shoka-x/awesome-shokaX)
+shokaTheta 的社群資源導向與插件儲存庫為 [awesome-shokaTheta](https://github.com/ZoneTwelve/awesome-shokaTheta)
 
-## 💬 和shoka的区别
-原先shoka使用了javascript+Native+nunjucks的技术 \
-而shokaX则使用了typescript+Vue 3+Pug的技术搭配 \
-更改了大量难以访问的CDN链接
+## 💬 和shoka、shokaX的差別
+基於原作者所述 shoka 使用了 JavaScript + native + nunjucks 的技術\
+而 shokaX 使用的是 TypeScript + Vue 3 + Pug 的技術搭配\
+更改了大量難以存取的 CDN 連結
+而 shokaTheta 會基於 shokaX 進行大量的修改，以保障使用者隱私以及更高效的服務架構
 
-## ✨ 功能清单 
+## ✨ 功能清單
 
-|   功能名称   | 实现状态 |     功能名称     | 实现状态 |
+|   功能名稱   | 實現狀態 |     功能名稱     | 實現狀態 |
 |:--------:|:----:|:------------:|:----:|
-|  PWA支持   |  ✅   |    JSD拆分     |  ✅   |
-|  注入API   |  ✅   |    社区插件系统    |  ✅   |
-|  自定义字体   |  ✅*  |    自定义样式     |  ✅*  |
-| 多种评论系统支持 |  ✅   |   AI生成文章概括   |  🔬  |
-|  底部备案号   |  ✅   |    自定义页尾     |  ✅*  |
-| CSS渐变封面  |  ✅   | typescript支持 |  ✅   |
+|  PWA支援   |  ✅   |    JSD拆分     |  ✅   |
+|  API 注入   |  ✅   |    社群插件系統    |  ✅   |
+|  自定義字體   |  ✅*  |    自定義樣式     |  ✅*  |
+| 多種評論系統支援 |  ✅   |   AI生成文章大綱   |  🔬  |
+|  底部備案號   |  ✅   |    自定義頁尾     |  ✅*  |
+| CSS漸變封面  |  ✅   | TypeScript 支援 |  ✅   |
 
-备注:
-- *: 需要使用注入API实现
-- 🔬: 实验中，可能存在问题
+備註:
+- *: 需要使用 API 注入才能實現
+- 🔬: 實驗中，可能存在問題
 
 
-## 🔧 如何安装?
-注意: 本项目需要 node.js 18.x 或更高版本才能运行 \
-建议使用[ShokaX-CLI](https://github.com/zkz098/shokaX-CLI) ,执行下列命令即可:
+## 🔧 如何安裝?
+注意: 本項目需要 Node.js 18.x 或者更高版本才能執行 \
+目前暫不支援 ShokaTheta-CLI，暫時保留 shokaTheta 的未來說明文件
+
 ```bash
-npm i shokax-cli --location=global
-# hexo init 初始化环境
-SXC install shokaX
+npm i shoka-theta --location=global
+# hexo init 初始化環境
+SXC install shokaTheta
 ```
-[点此](https://docs.kaitaku.xyz/guide/#%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98)以进行下一步配置
+[點此](#NotReady)已進行下一步設定
 
-## 📚子项目
-- [ShokaX docs](https://github.com/theme-shoka-x/shokaX-docs) ShokaX 主题文档 (正在编写中，欢迎加入！)
-- [HRMNMI](https://github.com/theme-shoka-x/hexo-renderer-multi-next-markdown-it) ShokaX 正在使用的 markdown 渲染器 (等待重构)
-- [ShokaX CLI](https://github.com/theme-shoka-x/shokaX-CLI) ShokaX 命令行安装程序
-- [ShokaX Pjax](https://github.com/theme-shoka-x/theme-shokax-pjax) ShokaX 提供的高效 Pjax 实现
-- [ShokaX Anime](https://github.com/theme-shoka-x/theme-shokax-anime) ShokaX 提供的精简版 Anime.js 实现
+## 📚子項目
+- 暫無
 
-## 🛠️二次开发
-[ShokaX官方开发文档](https://docs.kaitaku.xyz/develop/basic/)
+## 🛠️二次開發
+暫無
 
-参与开发建议阅读的文档:
-- [Hexo 官方文档](https://hexo.io/zh-cn/docs/templates)
+參與開發建議閱讀文件:
+- [Hexo 官方文件](https://hexo.io/zh-cn/docs/templates)
 - [Stylus 中文网](http://stylus.bootcss.com/)
 - [Pug 模板引擎中文文档](https://www.pugjs.cn/api/getting-started.html)
 - [Typescript 中文网](https://www.tslang.cn/docs/home.html)
 - [Easy hexo](https://easyhexo.com/)
 
-# 许可证
-许可证: AGPL 3 or later
+# 許可證 License
+許可證: AGPL 3 or later
 
-## 特别说明
-AGPL许可证主要目的是限制修改后的分发行为，避免未经许可的二次修改封装商业行为 \
-仅修改源代码**需要**开源，因为根据AGPL许可，搭建网站需要开源修改部分
+## 特別說明
+AGPL許可證主要目的是限制修改後的分發行為，避免未經許可的二次修改封面商業行為 \
+僅修改原始程式碼**需要**開源，基於 AGPL 許可，搭建網站需要開源修改部分
 
-## 使用特殊说明
-依照AGPLv3 Section 7，我们添加了一些附加条款:
-请查看[使用限制](./UsageRestrictions.md)，使用ShokaX则默认您已知晓此文件内容
+## 使用特殊說明
+依照AGPLv3 Section 7，我們基於原項目的修改，盡量保留原始說明需求:
+請查閱[使用限制](./UsageRestrictions.md)，使用 ShokaTheta 則默認您已經知道此文件內容
 
-# 致谢名单
-## 开源项目
-| 名称               | 作者                | 描述                 |
-|:-----------------|:------------------|:-------------------|
-| Hexo             | Hexo contributors | 为本项目提供了良好的基础       |
-| hexo-theme-shoka | amehime           | 本项目的父主题            |
+# 致謝名單
+## 開源項目
+| 名稱               | 作者               | 描述                  |
+|:------------------|:------------------|:----------------------|
+| Hexo              | Hexo contributors | 為本專案提供良好基礎      |
+| hexo-theme-shoka  | amehime           | 本項目的父父主題         |
+| hexo-theme-shokaX | theme-shoka-x     | 本項目的父主題           |
 
-## 开发者们
-[![](https://contributors-img.web.app/image?repo=theme-shoka-x/hexo-theme-shokaX)](https://github.com/theme-shoka-x/hexo-theme-shokaX/graphs/contributors)
+## 開發者們
+<!-- [![](https://contributors-img.web.app/image?repo=theme-shoka-x/hexo-theme-shokaX)](https://github.com/ZoneTwelve/hexo-theme-shokaTheta/graphs/contributors) -->
 
-## 特别鸣谢
-[<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" width="25%">](https://jb.gg/OpenSourceSupport)
+## 特別感謝
+[hexo-theme-shokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX)
 
-## 其他信息
-![Star history chart](https://api.star-history.com/svg?repos=theme-shoka-x/hexo-theme-shokaX&type=Date)
+## 其他資訊
+![Star history chart](https://api.star-history.com/svg?repos=ZoneTwelve/hexo-theme-shokaTheta&type=Date)

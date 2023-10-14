@@ -1,10 +1,10 @@
 {
-    "name": "hexo-theme-shokax",
-    "version": "0.3.6",
-    "description": "a hexo theme based on shoka",
+    "name": "hexo-theme-shokaTheta",
+    "version": "0.0.0",
+    "description": "a hexo theme based on shoka theta",
     "main": "index.js",
-    "repository": "https://github.com/theme-shoka-x/hexo-theme-shokaX",
-    "author": "zkz098",
+    "repository": "https://github.com/ZoneTwelve/hexo-theme-shokaTheta",
+    "author": "ZoneTwelve",
     "license": "AGPL-3.0-or-later",
     "scripts": {
         "test": "mocha test --coverage",

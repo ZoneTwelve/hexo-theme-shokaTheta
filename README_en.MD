@@ -1,3 +1,8 @@
+# Warning
+
+This document still not been edited.
+Want to know about the ShokaTheta, please checkout the [README (Traditional Chinese Version)](https://github.com/ZoneTwelve/hexo-theme-shokaTheta)
+
 # 📣 Announcement
 * [ShokaX is looking for community maintainers](https://github.com/theme-shoka-x/hexo-theme-shokaX/discussions/137)
 
